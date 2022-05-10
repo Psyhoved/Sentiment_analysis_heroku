@@ -2,9 +2,7 @@ from fastapi import FastAPI
 from transformers import pipeline
 from transformers import AutoTokenizer
 from pydantic import BaseModel
-import os
 
-os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 
 class Item(BaseModel):
     text: str
