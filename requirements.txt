@@ -1,4 +1,5 @@
-﻿torch==1.9.0+cpu
+python==3.8.0
+torch==1.9.0
 anyio==3.5.0
 certifi==2021.10.8
 charset-normalizer==2.0.12
